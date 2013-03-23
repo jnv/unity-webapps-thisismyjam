@@ -10,12 +10,12 @@ function isCorrectPage() {
     var i, ids = ['player-bar'];
 
     for (i = 0; i < ids.length; i++) {
-     if (!document.getElementById(ids[i])) {
-       return false;
-   }
-}
+        if (!document.getElementById(ids[i])) {
+            return false;
+        }
+    }
 
-return true;
+    return true;
 }
 
 function getTrackInfo() {
