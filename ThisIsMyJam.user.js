@@ -6,29 +6,6 @@
 
 window.Unity = external.getUnityObject(1.0);
 
-if(typeof wrapCallback != "function")
-{
-    var wrapCallback = function wrapCallback(callback) {
-        return function () {
-            try {
-                callback.apply(window, arguments);
-            } catch (x) {
-                console.log(x);
-            }
-        };
-    };
-}
-
-function wrapCallback(callback) {
-    return function () {
-        try {
-            callback.apply(window, arguments);
-        } catch (x) {
-            console.log(x);
-        }
-    };
-}
-
 function isCorrectPage() {
     var i, ids = ['player-bar'];
 
