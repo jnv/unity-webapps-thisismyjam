@@ -1,0 +1,12 @@
+{ "domain" : "thisismyjam.com",
+  "homepage" : "http://thisismyjam.com",
+  "includes" : [ "http://thisismyjam.com/*" ],
+  "manifest-version":"1.0",
+  "integration-version":"2.2",
+  "license" : "MIT",
+  "maintainer" : "Jan Vlnas <dev@jan.vlnas.cz>",
+  "name" : "This Is My Jam",
+  "package-name" : "ThisIsMyJam",
+  "requires" : [ "utils.js" ],
+  "scripts" : [ "ThisIsMyJam.user.js" ]
+}
