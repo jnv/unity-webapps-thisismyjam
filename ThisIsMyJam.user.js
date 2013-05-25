@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name          thisismyjam-unity-integration
 // @include       http://www.thisismyjam.com/*
+// @include       http://www.thisismyjam.com
 // @require       utils.js
 // ==/UserScript==
 

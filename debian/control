@@ -12,7 +12,7 @@ Section: web
 Priority: extra
 Depends: unity-webapps-common, xdg-utils, ${misc:Depends}
 XB-Ubuntu-Webapps-Includes: http://www.thisismyjam.com/*;http://www.thisismyjam.com
-XB-Ubuntu-Webapps-Name: This Is My Jam
+XB-Ubuntu-Webapps-Name: ThisIsMyJam
 XB-Ubuntu-Webapps-Domain: thisismyjam.com
 Description: Unity Webapp for This Is My Jam
  This Is My Jam Webapp for Unity
