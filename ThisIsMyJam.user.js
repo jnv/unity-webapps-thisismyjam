@@ -40,27 +40,33 @@ function getTrackInfo() {
     };
 }
 
+function setPlaybackState() {
+    var notpaused = document.getElementById('playPause').className.match(/playing$/);
+    if (null !== notpaused) {
+        Unity.MediaPlayer.setPlaybackState(Unity.MediaPlayer.PlaybackState.PLAYING);
+    } else {
+        Unity.MediaPlayer.setPlaybackState(Unity.MediaPlayer.PlaybackState.PAUSED);
+    }
+}
+
 function musicPlayerSetup() {
     Unity.MediaPlayer.init("This Is My Jam");
 
     setInterval(wrapCallback(function retry() {
         var trackInfo = getTrackInfo();
 
+        setPlaybackState();
+
         if (!trackInfo) {
             return;
         }
 
-        var notpaused = document.getElementById('playPause').className.match(/playing$/);
-        if (null !== notpaused) {
-            Unity.MediaPlayer.setPlaybackState(Unity.MediaPlayer.PlaybackState.PLAYING);
-        } else {
-            Unity.MediaPlayer.setPlaybackState(Unity.MediaPlayer.PlaybackState.PAUSED);
-        }
         Unity.MediaPlayer.setTrack(trackInfo);
     }), 1000);
 
     Unity.MediaPlayer.onPlayPause(wrapCallback(function () {
         click(document.getElementById('playPause'));
+        setPlaybackState();
     }));
 
     Unity.MediaPlayer.onNext(wrapCallback(function () {
