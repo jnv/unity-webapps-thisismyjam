@@ -1,11 +1,10 @@
 // ==UserScript==
-// @name          thisismyjam-unity-integration
 // @include       http://www.thisismyjam.com/*
 // @include       http://www.thisismyjam.com
 // @require       utils.js
 // ==/UserScript==
 
-window.Unity = external.getUnityObject(1.0);
+window.Unity = external.getUnityObject(1);
 
 function isCorrectPage() {
     var i, ids = ['player-bar'];
@@ -61,15 +60,15 @@ function musicPlayerSetup() {
     }), 1000);
 
     Unity.MediaPlayer.onPlayPause(wrapCallback(function () {
-        launchClickEvent(document.getElementById('playPause'));
+        click(document.getElementById('playPause'));
     }));
 
     Unity.MediaPlayer.onNext(wrapCallback(function () {
-        launchClickEvent(document.getElementById('forwards'));
+        click(document.getElementById('forwards'));
     }));
 
     Unity.MediaPlayer.onPrevious(wrapCallback(function () {
-        launchClickEvent(document.getElementById('backwards'));
+        click(document.getElementById('backwards'));
     }));
 }
 
