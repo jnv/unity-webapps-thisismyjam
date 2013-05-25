@@ -6,7 +6,7 @@
   "license" : "MIT",
   "maintainer" : "Jan Vlnas <dev@jan.vlnas.cz>",
   "name" : "This Is My Jam",
-  "package-name" : "ThisIsMyJam",
+  "package-name" : "thisismyjam",
   "requires" : [ "utils.js" ],
   "scripts" : [ "ThisIsMyJam.user.js" ],
   "description": "Unity Webapp for This Is My Jam",
@@ -16,5 +16,5 @@
     "48": "48/unity-webapps-thisismyjam.png",
     "52": "52/unity-webapps-thisismyjam.png",
     "64": "64/unity-webapps-thisismyjam.png"
-  },
+  }
 }
