@@ -74,6 +74,8 @@ function musicPlayerSetup() {
 
 if (isCorrectPage()) {
   Unity.init({ name: "This Is My Jam",
-    iconUrl: "http://www.thisismyjam.com/includes/image/apple-touch-icon@2x.png",
+    domain: "thisismyjam.com",
+    homepage: "http://www.thisismyjam.com/",
+    iconUrl: "icon://unity-webapps-thisismyjam",
     onInit: wrapCallback(musicPlayerSetup) });
 }
