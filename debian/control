@@ -4,8 +4,6 @@ Priority: extra
 Standards-Version: 3.9.3
 Maintainer: Jan Vlnas <dev@jan.vlnas.cz>
 Build-Depends: debhelper (>=7)
-Vcs-Git: git://github.com/jnv/unity-webapps-thisismyjam.git
-Vcs-Browser: https://github.com/jnv/unity-webapps-thisismyjam
 Homepage: http://www.thisismyjam.com
 
 Package: unity-webapps-thisismyjam
