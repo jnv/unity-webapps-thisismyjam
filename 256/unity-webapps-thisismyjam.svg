@@ -1,0 +1,27 @@
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="256" width="256" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(-303.75,-347.61219)">
+<path fill-rule="nonzero" fill="#FF0" d="m559.7,603.6-256,0,0-256,256,0,0,256z"/>
+<g transform="matrix(2.245614,0,0,-2.245614,545.77846,475.51203)">
+<path fill-rule="nonzero" fill="#000" d="m0,0c0-28.29-22.94-51.23-51.23-51.23s-51.23,22.94-51.23,51.23,22.94,51.23,51.23,51.23c28.33,0,51.27-22.94,51.27-51.23"/>
+</g>
+<g transform="matrix(2.245614,0,0,-2.245614,411.34769,484.48348)">
+<path fill-rule="nonzero" fill="#FFF" d="M0,0-0.884,7.962-4.246,0,0,0zm11.77-11.91-10.53,0-0.441,4.17-8.272,0-1.814-4.17-10.09,0,15.04,30.38,10.7,0,5.397-30.38z"/>
+</g>
+<g transform="matrix(2.245614,0,0,-2.245614,522.28282,443.01867)">
+<path fill-rule="nonzero" fill="#FFF" d="m0,0,0.003-30.46-9.108,0.041-0.01,17.14-5.775-17.1-8.36,0-2.594,17.12-3.052-17.12-9.509,0l6.54,30.38h11.18l2.65-16.41,5.78,16.41h12.25z"/>
+</g>
+<g transform="matrix(2.245614,0,0,-2.245614,379.64905,442.34993)">
+<path fill-rule="nonzero" fill="#FFF" d="m0,0-3.38-22.04c-0.928-5.751-3.495-9.356-9.599-9.356-1.414,0-5.002,0.284-6.063,0.859l1.547,7.248c0.753-0.267,1.996-0.52,2.747-0.52,1.196,0,1.548,0.662,1.726,1.771l3.368,22.04h9.642z"/>
+</g>
+</g>
+</svg>
