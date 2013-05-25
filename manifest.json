@@ -2,11 +2,19 @@
   "homepage" : "http://thisismyjam.com",
   "includes" : [ "http://thisismyjam.com/*" ],
   "manifest-version":"1.0",
-  "integration-version":"2.2",
+  "integration-version":"2.4.8",
   "license" : "MIT",
   "maintainer" : "Jan Vlnas <dev@jan.vlnas.cz>",
   "name" : "This Is My Jam",
   "package-name" : "ThisIsMyJam",
   "requires" : [ "utils.js" ],
-  "scripts" : [ "ThisIsMyJam.user.js" ]
+  "scripts" : [ "ThisIsMyJam.user.js" ],
+  "description": "Unity Webapp for This Is My Jam",
+  "icons":
+  {
+    "128": "128/unity-webapps-thisismyjam.png",
+    "48": "48/unity-webapps-thisismyjam.png",
+    "52": "52/unity-webapps-thisismyjam.png",
+    "64": "64/unity-webapps-thisismyjam.png"
+  },
 }
