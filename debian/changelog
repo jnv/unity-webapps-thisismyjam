@@ -1,3 +1,9 @@
+unity-webapps-thisismyjam (0.1.0) quantal; urgency=low
+
+  * Fix general functionality
+
+ -- Jan Vlnas <pgp@jan.vlnas.cz>  Sat, 25 May 2013 19:02:35 +0200
+
 unity-webapps-thisismyjam (0.0.2ubuntu1) quantal; urgency=low
 
   * Add icons to manifest
