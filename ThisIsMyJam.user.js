@@ -75,7 +75,7 @@ function musicPlayerSetup() {
 if (isCorrectPage()) {
   Unity.init({ name: "This Is My Jam",
     domain: "thisismyjam.com",
-    homepage: "http://www.thisismyjam.com/",
+    homepage: "http://www.thisismyjam.com",
     iconUrl: "icon://unity-webapps-thisismyjam",
     onInit: wrapCallback(musicPlayerSetup) });
 }
