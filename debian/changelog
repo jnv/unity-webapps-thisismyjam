@@ -1,3 +1,10 @@
+unity-webapps-thisismyjam (0.0.2) quantal; urgency=low
+
+  * Add COPYING file with MIT license
+  * Add This Is My Jam icons
+
+ -- Jan Vlnas <pgp@jan.vlnas.cz>  Sat, 25 May 2013 12:55:40 +0200
+
 unity-webapps-thisismyjam (0.0.1) quantal; urgency=low
 
   * Initial release.
