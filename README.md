@@ -39,7 +39,6 @@ sudo apt-get install unity-webapps-thisismyjam
 
 ## TODO
 
-* Cover images support; maybe from `.blackHole.playing` element?
 * Like support, possibly via `Unity.Launcher` actions
 * Indicate playlist status via `setCanGoNext`/`setCanGoPrev`/`setCanPlay`/`setCanPause` methods
 * Test coverage

@@ -1,3 +1,9 @@
+unity-webapps-thisismyjam (0.2.0) quantal; urgency=low
+
+  * Add cover/artLocation support for playlist and profile pages
+
+ -- Jan Vlnas <pgp@jan.vlnas.cz>  Sun, 26 May 2013 14:30:26 +0200
+
 unity-webapps-thisismyjam (0.1.0) quantal; urgency=low
 
   * Fix general functionality
