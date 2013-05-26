@@ -18,6 +18,27 @@ function isCorrectPage() {
     return true;
 }
 
+function getArtLocation() {
+    var img = null;
+
+    // On Playlist page, things are easy
+    img = document.querySelector('.blackHole.playing img');
+    if(img)
+    {
+        return img.getAttribute('data-thumb');
+    }
+
+    // Let's try profile page
+    img = document.querySelector('#jamHolder img');
+    if(img)
+    {
+        return img.src;
+    }
+
+    // No can do
+    return null;
+}
+
 function getTrackInfo() {
     var artist = null,
     title = null,
@@ -25,7 +46,7 @@ function getTrackInfo() {
     try {
         artist = document.getElementById('artist-name').textContent;
         title = document.getElementById('track-title').textContent;
-        //artLocation = document.evaluate('//*[@class="playing"]', document, null, XPathResult.ANY_UNORDERED_NODE_TYPE, null).singleNodeValue.src;
+        artLocation = getArtLocation();
     } catch (x) {}
 
     if(!title) {
