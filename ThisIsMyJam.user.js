@@ -5,6 +5,7 @@
 // ==/UserScript==
 
 window.Unity = external.getUnityObject(1);
+var _lastArtLocation = null;
 
 function isCorrectPage() {
     var i, ids = ['player-bar'];
@@ -48,6 +49,13 @@ function getTrackInfo() {
         title = document.getElementById('track-title').textContent;
         artLocation = getArtLocation();
     } catch (x) {}
+
+    if (artLocation) {
+        _lastArtLocation = artLocation;
+    }
+    else {
+        artLocation = _lastArtLocation;
+    }
 
     if(!title) {
         return null;
