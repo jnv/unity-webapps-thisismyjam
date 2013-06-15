@@ -1,3 +1,9 @@
+unity-webapps-thisismyjam (0.2.1) quantal; urgency=low
+
+  * Maintain last art location to prevent blackout on pause
+
+ -- Jan Vlnas <pgp@jan.vlnas.cz>  Sat, 15 Jun 2013 14:34:36 +0200
+
 unity-webapps-thisismyjam (0.2.0) quantal; urgency=low
 
   * Add cover/artLocation support for playlist and profile pages
