@@ -1,3 +1,9 @@
+unity-webapps-thisismyjam (0.2.2) raring; urgency=low
+
+  * Add support for HTTPS URLs
+
+ -- Jan Vlnas <pgp@jan.vlnas.cz>  Sun, 11 Aug 2013 01:53:41 +0200
+
 unity-webapps-thisismyjam (0.2.1) quantal; urgency=low
 
   * Maintain last art location to prevent blackout on pause
