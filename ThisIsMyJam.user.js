@@ -1,6 +1,8 @@
 // ==UserScript==
 // @include       http://www.thisismyjam.com/*
 // @include       http://www.thisismyjam.com
+// @include       https://www.thisismyjam.com/*
+// @include       https://www.thisismyjam.com
 // @require       utils.js
 // ==/UserScript==
 

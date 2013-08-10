@@ -1,6 +1,6 @@
 { "domain" : "thisismyjam.com",
   "homepage" : "http://www.thisismyjam.com",
-  "includes" : [ "http://www.thisismyjam.com/*", "http://www.thisismyjam.com" ],
+  "includes" : [ "http://www.thisismyjam.com/*", "http://www.thisismyjam.com", "https://www.thisismyjam.com/*", "https://www.thisismyjam.com" ],
   "manifest-version":"1.0",
   "integration-version":"2.4.8",
   "license" : "MIT",
